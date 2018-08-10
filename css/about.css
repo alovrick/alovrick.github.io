@@ -1,0 +1,15 @@
+.about{
+  background-image: url("../img/toronto-skyline.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 2em auto;
+}
+
+.about-box{
+  background: rgba(0, 0, 0, .65);
+}
+
+.profile{
+  display: none;
+}

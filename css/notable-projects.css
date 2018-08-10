@@ -1,0 +1,20 @@
+.notable-projects{
+  background-image: url("../img/stationary.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 2em auto;
+  padding-bottom: 2.5em;
+}
+
+.notable-projects-box{
+  width: 100%;
+  max-width: 38em;
+  margin: 1em auto;
+  background: rgba(0, 0, 0, .65);
+  padding: 1em 1em;
+  border-radius: 0.5em;
+}
+
+.robot-image{
+  display: none;
+}

@@ -1,0 +1,47 @@
+.skills{
+  margin: auto;
+  background-image: url("../img/paper.jpg");
+  background-size: cover;
+  background-position: -15em;
+  width: 100%;
+  max-width: 47em;
+  padding-bottom: 0.4em;
+}
+
+.skills-box{
+  width: 100%;
+  max-width: 25em;
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  background: rgba(0, 0, 0, .65);
+  border-radius: 0.5em;
+}
+
+.skills-list-item-img{
+  padding: 0.5em 0.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.work{
+  background-image: url("../img/wood-table.jpg");
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  max-width: 47em;
+  padding-bottom: 0.4em;
+}
+
+.work-box{
+  width: 100%;
+  max-width: 38em;
+  margin: auto;
+  background: rgba(0, 0, 0, .65);
+  margin-bottom: 2em;
+  border-radius: 0.5em;
+}
+
+#photo-video-list{
+  list-style: none;
+}

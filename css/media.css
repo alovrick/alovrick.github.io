@@ -1,0 +1,100 @@
+@media screen and (min-width: 560px) {
+
+  .robot-image{
+    display: block;
+    width: 25%;
+    height: 25%;
+    min-height: 9em;
+    min-width: 6em;
+    float: right;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+
+  main{
+    margin-top: 6em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .top{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .top-title{
+    text-align: left;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 200%;
+  }
+
+  .top-list{
+    text-align: right;
+    font-size: 120%;
+    margin-top: 0.6em;
+  }
+
+  .horizontal-list-item:last-child::after{
+    margin-right: 0.5em;
+  }
+
+  .about-box{
+    width: 44em;
+    margin: auto;
+  }
+
+  .education-list-item{
+    display: inline;
+  }
+  .education-list-item::after{
+    content: " | " /*place a | after every list item*/
+  }
+
+  .education-list-item:last-child::after{
+    content: ''; /*prevent a | from being placed after the last element*/
+  }
+
+  main{
+    margin-top: 3.5em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .profile{
+    display: block;
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-top: 1em;
+    margin-right: 0.7em;
+    border-radius: 0.3em;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+
+  .skills-work-grid{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+
+  }
+
+  .skills{
+    max-width: 29em;
+    border: 0.5em solid white;
+    border-radius: 0.5em;
+  }
+
+  .work{
+    border: 0.5em solid white;
+    border-radius: 0.5em;
+    height: 100%;
+  }
+
+  .notable-projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,60 @@
+.social-media-icon{
+  width: 1em;
+  height: 1em;
+  position: relative;
+}
+
+.top{
+  text-align: center;
+  display: grid;
+  position: fixed;
+  background-color: #26547C;
+  top: 0;
+  width: 100%;
+}
+
+.top-title{
+  display: inline;
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+
+.top-list{
+  margin-left: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.social-list{
+  width: 4.5em;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0em;
+  right: 0.5em;
+}
+
+.horizontal-list-item{
+  font-size: 80%;
+  display: inline;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.3em;
+}
+
+.horizontal-list-item::after{
+  content: " | " /*place a | after every list item*/
+}
+
+.horizontal-list-item:last-child::after{
+  content: ''; /*prevent a | from being placed after the last element*/
+}
+
+.horizontal-img-list-item{
+  display: inline;
+}
+
+#arrow{
+  height: 0.7em;
+  width: 0.7em;
+}
