@@ -6,6 +6,8 @@
     height: 30%;
     min-height: 9em;
     min-width: 6em;
+    max-width: 10em;
+    max-height: 18em;
     float: right;
     margin-top: 1em;
     margin-left: 1em;
