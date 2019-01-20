@@ -2,17 +2,19 @@
   background-color: rgb(40, 40, 40);
   background-image: url("../img/wood-table.jpg");
   background-size: cover;
-  margin: auto;
+  margin: 2em auto;
+  padding-bottom: 2.5em;
   width: 100%;
 }
 
 .work-box{
   width: 100%;
-  vertical-align: middle;
+  margin: 1em auto;
+  padding: 1em 1em;
   max-width: 38em;
-  margin: auto;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, .80);
   border-radius: 0.5em;
+  vertical-align: middle;
 }
 
 .work-date{

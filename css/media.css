@@ -75,18 +75,11 @@
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
 
   .skills-work-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .work{
-    border-radius: 0.5em;
-    height: 100%;
-    padding: 5em;
-    padding-top: 0em;
   }
 
   .banner-grid{
