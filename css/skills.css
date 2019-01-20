@@ -1,0 +1,46 @@
+.skills{
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url("../img/typing.jpg");
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 2.5em;
+}
+
+.skills-box{
+  width: 100%;
+  max-width: 50em;
+  margin: 1em auto;
+  background: rgba(0, 0, 0, .75);
+  border-radius: 0.5em;
+}
+
+.skills-list-item-img{
+  padding: 0.5em 0.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.skills-table{
+  margin: auto;
+}
+
+.skills-table, th, td{
+  padding: 0.3em 0.5em;
+}
+
+.skills-table-row{
+  line-height: 1.9em;
+}
+
+.skills-table-row:hover{
+  background: rgba(255, 255, 255, .25);
+}
+
+.skills-table-right{
+  padding-left: 5em;
+}
+
+.skills-table-left{
+  font-weight: bold;
+}

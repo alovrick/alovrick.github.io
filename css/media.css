@@ -80,29 +80,18 @@
   .skills-work-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-  }
-
-  .skills{
-    border: 0.5em solid white;
-    border-radius: 0.5em;
-    height: 100%;
-    width:90%;
-    max-width: 42em;
   }
 
   .work{
-    border: 0.5em solid white;
     border-radius: 0.5em;
     height: 100%;
-    width:90%;
-    max-width: 42em;
     padding: 5em;
     padding-top: 0em;
   }
 
-  .notable-projects-grid{
+  .banner-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
 }

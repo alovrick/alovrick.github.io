@@ -1,0 +1,30 @@
+.work{
+  background-color: rgb(40, 40, 40);
+  background-image: url("../img/wood-table.jpg");
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+}
+
+.work-box{
+  width: 100%;
+  vertical-align: middle;
+  max-width: 38em;
+  margin: auto;
+  background: rgba(0, 0, 0, .8);
+  border-radius: 0.5em;
+}
+
+.work-date{
+  font-size: 120%;
+  text-align: center;
+  margin: 0em  0em;
+}
+
+#accord{
+  height: 3.7em;
+}
+
+#dx{
+  margin-top: 0.5em;
+}

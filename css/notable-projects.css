@@ -19,3 +19,9 @@
 .robot{
   display: none;
 }
+
+#remind{
+  border: none;
+  border-radius: 0em;
+  background: none;
+}
