@@ -10,6 +10,7 @@
 .work-box{
   width: 100%;
   margin: auto;
+  margin-top: 1em;
   padding: 1em 1em;
   max-width: 38em;
   background: rgba(0, 0, 0, .80);
