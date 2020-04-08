@@ -76,6 +76,13 @@ main{
   border-radius: 1.5em;
 }
 
+.box-img{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  text-align: center;
+}
 .box-content{
   padding: 1em;
   line-height: 1.6em;
