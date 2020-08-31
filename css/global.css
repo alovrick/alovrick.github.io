@@ -9,15 +9,15 @@ body{
 }
 
 a{
-  color: inherit;
+  color: #00D3FF;;
 }
 
 a:hover{
-  color: grey;
+  color: white;
 }
 
 a:visited{
-  color: inherit;
+  color: #00D3FF;
 }
 
 footer{
@@ -89,14 +89,6 @@ main{
   font-size: 115%
 }
 
-a.box-link:link{
-  color: #00D3FF;
-}
-
-a.box-link:visited{
-  color: #00D3FF;
-}
-
 .to-top{
   display: block;
   padding-bottom: 0.5em;
@@ -104,10 +96,11 @@ a.box-link:visited{
   width: 100px;
 }
 
-a.to-top:link{
-  color: blue;
-}
-
-a.to-top:visited{
-  color: blue;
+.banner-link{
+  text-align: center;
+  display: block;
+  font-size: 150%;
+  margin: 2em auto;
+  padding-bottom: 1em;
+  width: 13em;
 }
