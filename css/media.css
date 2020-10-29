@@ -22,20 +22,23 @@
 
   .top{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 0.1em;
   }
 
   .top-title{
-    text-align: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
     margin-left: 0.5em;
     margin-bottom: 0.5em;
+    text-align: right;
     font-size: 200%;
   }
 
   .top-list{
     text-align: right;
-    font-size: 120%;
-    margin-top: 0.6em;
+    font-size: 110%;
+    margin-top: 0.7em;
   }
 
   .horizontal-list-item:last-child::after{
