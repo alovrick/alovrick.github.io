@@ -9,9 +9,9 @@
 
 .skills-box{
   width: 100%;
-  max-width: 55em;
+  max-width: 40em;
   margin: 1em auto;
-  background: rgba(0, 0, 0, .75);
+  background: rgba(0, 0, 0, .9);
   border-radius: 0.5em;
 }
 
@@ -30,7 +30,8 @@
 }
 
 .skills-table-row{
-  line-height: 1.9em;
+  line-height: 1.5em;
+  padding: 1em;
 }
 
 .skills-table-row:hover{
@@ -38,7 +39,7 @@
 }
 
 .skills-table-right{
-  padding-left: 5em;
+  padding-left: 2em;
 }
 
 .skills-table-left{
