@@ -23,7 +23,7 @@
   .top{
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-bottom: 0.1em;
+    padding-bottom: 0.45em;
   }
 
   .top-title{
